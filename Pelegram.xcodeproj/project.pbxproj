@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC05220E2A588F310064298A /* PelegramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC05220D2A588F310064298A /* PelegramApp.swift */; };
+		AC0522102A588F310064298A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC05220F2A588F310064298A /* ContentView.swift */; };
+		AC0522122A588F320064298A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC0522112A588F320064298A /* Assets.xcassets */; };
+		AC0522162A588F320064298A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC0522152A588F320064298A /* Preview Assets.xcassets */; };
+		AC0522202A588F320064298A /* PelegramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC05221F2A588F320064298A /* PelegramTests.swift */; };
+		AC05222A2A588F320064298A /* PelegramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0522292A588F320064298A /* PelegramUITests.swift */; };
+		AC05222C2A588F320064298A /* PelegramUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC05222B2A588F320064298A /* PelegramUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC05221C2A588F320064298A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC0522022A588F310064298A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC0522092A588F310064298A;
+			remoteInfo = Pelegram;
+		};
+		AC0522262A588F320064298A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC0522022A588F310064298A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC0522092A588F310064298A;
+			remoteInfo = Pelegram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC05220A2A588F310064298A /* Pelegram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pelegram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC05220D2A588F310064298A /* PelegramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PelegramApp.swift; sourceTree = "<group>"; };
+		AC05220F2A588F310064298A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AC0522112A588F320064298A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC0522132A588F320064298A /* Pelegram.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Pelegram.entitlements; sourceTree = "<group>"; };
+		AC0522152A588F320064298A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AC05221B2A588F320064298A /* PelegramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PelegramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC05221F2A588F320064298A /* PelegramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PelegramTests.swift; sourceTree = "<group>"; };
+		AC0522252A588F320064298A /* PelegramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PelegramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0522292A588F320064298A /* PelegramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PelegramUITests.swift; sourceTree = "<group>"; };
+		AC05222B2A588F320064298A /* PelegramUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PelegramUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC0522072A588F310064298A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0522182A588F320064298A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0522222A588F320064298A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC0522012A588F310064298A = {
+			isa = PBXGroup;
+			children = (
+				AC05220C2A588F310064298A /* Pelegram */,
+				AC05221E2A588F320064298A /* PelegramTests */,
+				AC0522282A588F320064298A /* PelegramUITests */,
+				AC05220B2A588F310064298A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC05220B2A588F310064298A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC05220A2A588F310064298A /* Pelegram.app */,
+				AC05221B2A588F320064298A /* PelegramTests.xctest */,
+				AC0522252A588F320064298A /* PelegramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC05220C2A588F310064298A /* Pelegram */ = {
+			isa = PBXGroup;
+			children = (
+				AC05220D2A588F310064298A /* PelegramApp.swift */,
+				AC05220F2A588F310064298A /* ContentView.swift */,
+				AC0522112A588F320064298A /* Assets.xcassets */,
+				AC0522132A588F320064298A /* Pelegram.entitlements */,
+				AC0522142A588F320064298A /* Preview Content */,
+			);
+			path = Pelegram;
+			sourceTree = "<group>";
+		};
+		AC0522142A588F320064298A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AC0522152A588F320064298A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AC05221E2A588F320064298A /* PelegramTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC05221F2A588F320064298A /* PelegramTests.swift */,
+			);
+			path = PelegramTests;
+			sourceTree = "<group>";
+		};
+		AC0522282A588F320064298A /* PelegramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC0522292A588F320064298A /* PelegramUITests.swift */,
+				AC05222B2A588F320064298A /* PelegramUITestsLaunchTests.swift */,
+			);
+			path = PelegramUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC0522092A588F310064298A /* Pelegram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC05222F2A588F320064298A /* Build configuration list for PBXNativeTarget "Pelegram" */;
+			buildPhases = (
+				AC0522062A588F310064298A /* Sources */,
+				AC0522072A588F310064298A /* Frameworks */,
+				AC0522082A588F310064298A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pelegram;
+			productName = Pelegram;
+			productReference = AC05220A2A588F310064298A /* Pelegram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC05221A2A588F320064298A /* PelegramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC0522322A588F320064298A /* Build configuration list for PBXNativeTarget "PelegramTests" */;
+			buildPhases = (
+				AC0522172A588F320064298A /* Sources */,
+				AC0522182A588F320064298A /* Frameworks */,
+				AC0522192A588F320064298A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC05221D2A588F320064298A /* PBXTargetDependency */,
+			);
+			name = PelegramTests;
+			productName = PelegramTests;
+			productReference = AC05221B2A588F320064298A /* PelegramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC0522242A588F320064298A /* PelegramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC0522352A588F320064298A /* Build configuration list for PBXNativeTarget "PelegramUITests" */;
+			buildPhases = (
+				AC0522212A588F320064298A /* Sources */,
+				AC0522222A588F320064298A /* Frameworks */,
+				AC0522232A588F320064298A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC0522272A588F320064298A /* PBXTargetDependency */,
+			);
+			name = PelegramUITests;
+			productName = PelegramUITests;
+			productReference = AC0522252A588F320064298A /* PelegramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC0522022A588F310064298A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					AC0522092A588F310064298A = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					AC05221A2A588F320064298A = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = AC0522092A588F310064298A;
+					};
+					AC0522242A588F320064298A = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = AC0522092A588F310064298A;
+					};
+				};
+			};
+			buildConfigurationList = AC0522052A588F310064298A /* Build configuration list for PBXProject "Pelegram" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC0522012A588F310064298A;
+			productRefGroup = AC05220B2A588F310064298A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC0522092A588F310064298A /* Pelegram */,
+				AC05221A2A588F320064298A /* PelegramTests */,
+				AC0522242A588F320064298A /* PelegramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC0522082A588F310064298A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC0522162A588F320064298A /* Preview Assets.xcassets in Resources */,
+				AC0522122A588F320064298A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0522192A588F320064298A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0522232A588F320064298A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC0522062A588F310064298A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC0522102A588F310064298A /* ContentView.swift in Sources */,
+				AC05220E2A588F310064298A /* PelegramApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0522172A588F320064298A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC0522202A588F320064298A /* PelegramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0522212A588F320064298A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC05222C2A588F320064298A /* PelegramUITestsLaunchTests.swift in Sources */,
+				AC05222A2A588F320064298A /* PelegramUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC05221D2A588F320064298A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC0522092A588F310064298A /* Pelegram */;
+			targetProxy = AC05221C2A588F320064298A /* PBXContainerItemProxy */;
+		};
+		AC0522272A588F320064298A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC0522092A588F310064298A /* Pelegram */;
+			targetProxy = AC0522262A588F320064298A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AC05222D2A588F320064298A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC05222E2A588F320064298A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AC0522302A588F320064298A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Pelegram/Pelegram.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pelegram/Preview Content\"";
+				DEVELOPMENT_TEAM = 994LK9C926;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Pelegram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC0522312A588F320064298A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Pelegram/Pelegram.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pelegram/Preview Content\"";
+				DEVELOPMENT_TEAM = 994LK9C926;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Pelegram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC0522332A588F320064298A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 994LK9C926;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PelegramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pelegram.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pelegram";
+			};
+			name = Debug;
+		};
+		AC0522342A588F320064298A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 994LK9C926;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PelegramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pelegram.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pelegram";
+			};
+			name = Release;
+		};
+		AC0522362A588F320064298A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 994LK9C926;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PelegramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pelegram;
+			};
+			name = Debug;
+		};
+		AC0522372A588F320064298A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 994LK9C926;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PelegramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pelegram;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC0522052A588F310064298A /* Build configuration list for PBXProject "Pelegram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC05222D2A588F320064298A /* Debug */,
+				AC05222E2A588F320064298A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC05222F2A588F320064298A /* Build configuration list for PBXNativeTarget "Pelegram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0522302A588F320064298A /* Debug */,
+				AC0522312A588F320064298A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC0522322A588F320064298A /* Build configuration list for PBXNativeTarget "PelegramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0522332A588F320064298A /* Debug */,
+				AC0522342A588F320064298A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC0522352A588F320064298A /* Build configuration list for PBXNativeTarget "PelegramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0522362A588F320064298A /* Debug */,
+				AC0522372A588F320064298A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC0522022A588F310064298A /* Project object */;
+}
