@@ -14,6 +14,9 @@
 		AC0522202A588F320064298A /* PelegramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC05221F2A588F320064298A /* PelegramTests.swift */; };
 		AC05222A2A588F320064298A /* PelegramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0522292A588F320064298A /* PelegramUITests.swift */; };
 		AC05222C2A588F320064298A /* PelegramUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC05222B2A588F320064298A /* PelegramUITestsLaunchTests.swift */; };
+		AC8C28D22A58A68900F97C07 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C28D12A58A68900F97C07 /* LoginView.swift */; };
+		AC8C28D42A58A6EF00F97C07 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C28D32A58A6EF00F97C07 /* RegistrationView.swift */; };
+		AC8C28D62A58A8DD00F97C07 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C28D52A58A8DD00F97C07 /* FeedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		AC0522252A588F320064298A /* PelegramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PelegramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC0522292A588F320064298A /* PelegramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PelegramUITests.swift; sourceTree = "<group>"; };
 		AC05222B2A588F320064298A /* PelegramUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PelegramUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AC8C28D12A58A68900F97C07 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		AC8C28D32A58A6EF00F97C07 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		AC8C28D52A58A8DD00F97C07 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 				AC0522112A588F320064298A /* Assets.xcassets */,
 				AC0522132A588F320064298A /* Pelegram.entitlements */,
 				AC0522142A588F320064298A /* Preview Content */,
+				AC8C28D12A58A68900F97C07 /* LoginView.swift */,
+				AC8C28D32A58A6EF00F97C07 /* RegistrationView.swift */,
+				AC8C28D52A58A8DD00F97C07 /* FeedView.swift */,
 			);
 			path = Pelegram;
 			sourceTree = "<group>";
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC8C28D62A58A8DD00F97C07 /* FeedView.swift in Sources */,
+				AC8C28D22A58A68900F97C07 /* LoginView.swift in Sources */,
 				AC0522102A588F310064298A /* ContentView.swift in Sources */,
 				AC05220E2A588F310064298A /* PelegramApp.swift in Sources */,
+				AC8C28D42A58A6EF00F97C07 /* RegistrationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
