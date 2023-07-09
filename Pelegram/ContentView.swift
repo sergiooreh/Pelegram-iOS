@@ -8,9 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var network: Network
     
     var body: some View {
         LoginView()
+            .environmentObject(network)
     }
 }
 

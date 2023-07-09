@@ -13,20 +13,12 @@ struct RegistrationView: View {
     @State private var repeatPassword: String = ""
     
     var body: some View {
-        VStack(spacing: 50) {
+        VStack(spacing: 20) {
             Text("Pelegram")
-            TextField(
-                "Email",
-                text: $email
-            )
-            TextField(
-                "Password",
-                text: $password
-            )
-            TextField(
-                "Repeat Password",
-                text: $repeatPassword
-            )
+            MyTextField(title: "Email", text: $email)
+            MyTextField(title: "Password", text: $password)
+            MyTextField(title: "Repeat Password", text: $repeatPassword)
+            
             Button("Sign Up", action: {
                 
             })
