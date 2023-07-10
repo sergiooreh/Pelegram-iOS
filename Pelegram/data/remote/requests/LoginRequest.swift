@@ -2,12 +2,32 @@
 //  LoginRequest.swift
 //  Pelegram
 //
-//  Created by Serhii Orekhivskyi on 08.07.2023.
+//  Created by Serhii Orekhivskyi on 09.07.2023.
 //
 
-import Foundation
-
-struct LoginRequest: Encodable {
-    var email: String
-    var password: String
+enum LoginRequest: RequestProtocol {
+    case login(email: String, password: String)
+    
+    var path: String {
+        "/login"
+    }
+    
+    var params: [String: Any] {
+        switch self {
+        case let .login(email, password):
+            var params: [String: Any] = [:]
+            if !email.isEmpty {
+                params["email"] = email
+            }
+            if !password.isEmpty {
+                params["password"] = password
+            }
+            
+            return params
+        }
+    }
+    
+    var requestType: RequestType {
+        .POST
+    }
 }

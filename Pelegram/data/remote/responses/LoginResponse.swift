@@ -2,12 +2,12 @@
 //  LoginResponse.swift
 //  Pelegram
 //
-//  Created by Serhii Orekhivskyi on 08.07.2023.
+//  Created by Serhii Orekhivskyi on 09.07.2023.
 //
 
 import Foundation
 
 struct LoginResponse: Decodable {
-    var successful: Bool
-    var message: String
+    var user: AuthUserDto
+    var token: String
 }

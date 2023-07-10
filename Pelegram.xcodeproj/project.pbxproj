@@ -14,11 +14,18 @@
 		AC0522202A588F320064298A /* PelegramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC05221F2A588F320064298A /* PelegramTests.swift */; };
 		AC05222A2A588F320064298A /* PelegramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0522292A588F320064298A /* PelegramUITests.swift */; };
 		AC05222C2A588F320064298A /* PelegramUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC05222B2A588F320064298A /* PelegramUITestsLaunchTests.swift */; };
-		AC1E34182A59B4DB00FB3CDC /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1E34172A59B4DB00FB3CDC /* Network.swift */; };
 		AC1E341A2A59B4FC00FB3CDC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1E34192A59B4FC00FB3CDC /* User.swift */; };
 		AC1E341C2A59B64500FB3CDC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1E341B2A59B64500FB3CDC /* Constants.swift */; };
-		AC1E34212A59B9E300FB3CDC /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1E34202A59B9E300FB3CDC /* LoginRequest.swift */; };
-		AC1E34242A59BC9D00FB3CDC /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1E34232A59BC9D00FB3CDC /* LoginResponse.swift */; };
+		AC1E34242A59BC9D00FB3CDC /* BasicApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1E34232A59BC9D00FB3CDC /* BasicApiResponse.swift */; };
+		AC3EE7302A5AF1890051C07F /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3EE72F2A5AF1890051C07F /* LoginResponse.swift */; };
+		AC3EE7332A5AF20C0051C07F /* AuthUserDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3EE7322A5AF20C0051C07F /* AuthUserDto.swift */; };
+		AC3EE7362A5B10E90051C07F /* DataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3EE7352A5B10E90051C07F /* DataParser.swift */; };
+		AC3EE7382A5B11300051C07F /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3EE7372A5B11300051C07F /* RequestManager.swift */; };
+		AC3EE73A2A5B11730051C07F /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3EE7392A5B11730051C07F /* APIManager.swift */; };
+		AC3EE73C2A5B11950051C07F /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3EE73B2A5B11950051C07F /* NetworkError.swift */; };
+		AC3EE73E2A5B11C50051C07F /* RequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3EE73D2A5B11C50051C07F /* RequestProtocol.swift */; };
+		AC3EE7402A5B12480051C07F /* RequestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3EE73F2A5B12480051C07F /* RequestType.swift */; };
+		AC3EE7432A5B17CE0051C07F /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3EE7422A5B17CE0051C07F /* LoginRequest.swift */; };
 		AC8C28D22A58A68900F97C07 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C28D12A58A68900F97C07 /* LoginView.swift */; };
 		AC8C28D42A58A6EF00F97C07 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C28D32A58A6EF00F97C07 /* RegistrationView.swift */; };
 		AC8C28D62A58A8DD00F97C07 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C28D52A58A8DD00F97C07 /* FeedView.swift */; };
@@ -54,11 +61,18 @@
 		AC0522252A588F320064298A /* PelegramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PelegramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC0522292A588F320064298A /* PelegramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PelegramUITests.swift; sourceTree = "<group>"; };
 		AC05222B2A588F320064298A /* PelegramUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PelegramUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		AC1E34172A59B4DB00FB3CDC /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		AC1E34192A59B4FC00FB3CDC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		AC1E341B2A59B64500FB3CDC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		AC1E34202A59B9E300FB3CDC /* LoginRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
-		AC1E34232A59BC9D00FB3CDC /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		AC1E34232A59BC9D00FB3CDC /* BasicApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicApiResponse.swift; sourceTree = "<group>"; };
+		AC3EE72F2A5AF1890051C07F /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		AC3EE7322A5AF20C0051C07F /* AuthUserDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthUserDto.swift; sourceTree = "<group>"; };
+		AC3EE7352A5B10E90051C07F /* DataParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataParser.swift; sourceTree = "<group>"; };
+		AC3EE7372A5B11300051C07F /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
+		AC3EE7392A5B11730051C07F /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		AC3EE73B2A5B11950051C07F /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		AC3EE73D2A5B11C50051C07F /* RequestProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestProtocol.swift; sourceTree = "<group>"; };
+		AC3EE73F2A5B12480051C07F /* RequestType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestType.swift; sourceTree = "<group>"; };
+		AC3EE7422A5B17CE0051C07F /* LoginRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
 		AC8C28D12A58A68900F97C07 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		AC8C28D32A58A6EF00F97C07 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		AC8C28D52A58A8DD00F97C07 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
@@ -170,9 +184,13 @@
 		AC1E341E2A59B99D00FB3CDC /* remote */ = {
 			isa = PBXGroup;
 			children = (
+				AC3EE7342A5B10D60051C07F /* parser */,
+				AC3EE7312A5AF1FE0051C07F /* dto */,
 				AC1E34222A59BC8400FB3CDC /* responses */,
 				AC1E341F2A59B9C900FB3CDC /* requests */,
-				AC1E34172A59B4DB00FB3CDC /* Network.swift */,
+				AC3EE7372A5B11300051C07F /* RequestManager.swift */,
+				AC3EE7392A5B11730051C07F /* APIManager.swift */,
+				AC3EE73B2A5B11950051C07F /* NetworkError.swift */,
 			);
 			path = remote;
 			sourceTree = "<group>";
@@ -180,7 +198,8 @@
 		AC1E341F2A59B9C900FB3CDC /* requests */ = {
 			isa = PBXGroup;
 			children = (
-				AC1E34202A59B9E300FB3CDC /* LoginRequest.swift */,
+				AC3EE7412A5B17B80051C07F /* util */,
+				AC3EE7422A5B17CE0051C07F /* LoginRequest.swift */,
 			);
 			path = requests;
 			sourceTree = "<group>";
@@ -188,9 +207,35 @@
 		AC1E34222A59BC8400FB3CDC /* responses */ = {
 			isa = PBXGroup;
 			children = (
-				AC1E34232A59BC9D00FB3CDC /* LoginResponse.swift */,
+				AC1E34232A59BC9D00FB3CDC /* BasicApiResponse.swift */,
+				AC3EE72F2A5AF1890051C07F /* LoginResponse.swift */,
 			);
 			path = responses;
+			sourceTree = "<group>";
+		};
+		AC3EE7312A5AF1FE0051C07F /* dto */ = {
+			isa = PBXGroup;
+			children = (
+				AC3EE7322A5AF20C0051C07F /* AuthUserDto.swift */,
+			);
+			path = dto;
+			sourceTree = "<group>";
+		};
+		AC3EE7342A5B10D60051C07F /* parser */ = {
+			isa = PBXGroup;
+			children = (
+				AC3EE7352A5B10E90051C07F /* DataParser.swift */,
+			);
+			path = parser;
+			sourceTree = "<group>";
+		};
+		AC3EE7412A5B17B80051C07F /* util */ = {
+			isa = PBXGroup;
+			children = (
+				AC3EE73F2A5B12480051C07F /* RequestType.swift */,
+				AC3EE73D2A5B11C50051C07F /* RequestProtocol.swift */,
+			);
+			path = util;
 			sourceTree = "<group>";
 		};
 		AC8CBA9C2A5ADF22005153D5 /* screens */ = {
@@ -342,17 +387,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC1E34212A59B9E300FB3CDC /* LoginRequest.swift in Sources */,
+				AC3EE73C2A5B11950051C07F /* NetworkError.swift in Sources */,
+				AC3EE73A2A5B11730051C07F /* APIManager.swift in Sources */,
+				AC3EE7382A5B11300051C07F /* RequestManager.swift in Sources */,
 				AC8CBA9F2A5ADF7A005153D5 /* MyTextField.swift in Sources */,
+				AC3EE7302A5AF1890051C07F /* LoginResponse.swift in Sources */,
 				AC8C28D62A58A8DD00F97C07 /* FeedView.swift in Sources */,
 				AC8C28D22A58A68900F97C07 /* LoginView.swift in Sources */,
-				AC1E34182A59B4DB00FB3CDC /* Network.swift in Sources */,
-				AC1E34242A59BC9D00FB3CDC /* LoginResponse.swift in Sources */,
+				AC3EE7432A5B17CE0051C07F /* LoginRequest.swift in Sources */,
+				AC3EE73E2A5B11C50051C07F /* RequestProtocol.swift in Sources */,
+				AC1E34242A59BC9D00FB3CDC /* BasicApiResponse.swift in Sources */,
 				AC0522102A588F310064298A /* ContentView.swift in Sources */,
 				AC05220E2A588F310064298A /* PelegramApp.swift in Sources */,
 				AC8C28D42A58A6EF00F97C07 /* RegistrationView.swift in Sources */,
+				AC3EE7402A5B12480051C07F /* RequestType.swift in Sources */,
 				AC1E341A2A59B4FC00FB3CDC /* User.swift in Sources */,
 				AC1E341C2A59B64500FB3CDC /* Constants.swift in Sources */,
+				AC3EE7362A5B10E90051C07F /* DataParser.swift in Sources */,
+				AC3EE7332A5AF20C0051C07F /* AuthUserDto.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

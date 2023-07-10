@@ -14,7 +14,7 @@ struct LoginView: View {
     @State private var isFeedViewPresented = false
     @State private var showingAlert = false
     
-    @EnvironmentObject var network: Network
+    private let requestManager = RequestManager()
     
     var body: some View {
         NavigationView {
@@ -28,8 +28,9 @@ struct LoginView: View {
                         if(email.isEmpty || password.isEmpty) {
                             showingAlert = true
                         } else {
-//                            isFeedViewPresented = true
-                            network.login(email: email, password: password)
+                            Task {
+                                await login()
+                            }
                         }
                     }
                     .sheet(isPresented: $isFeedViewPresented) {
@@ -51,6 +52,18 @@ struct LoginView: View {
             }
         }
         
+    }
+    
+    func login() async {
+        do {
+            print("EMAIL", email)
+            let loginResponse: BasicApiResponse<LoginResponse> = try await requestManager.perform(LoginRequest.login(email: email, password: password))
+            print(loginResponse)
+//            let animals = animalsContainer.animals
+//            self.animals = animals
+//            await stopLoading()
+        } catch {
+        }
     }
 }
 
