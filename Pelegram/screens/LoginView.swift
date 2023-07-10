@@ -56,8 +56,7 @@ struct LoginView: View {
     
     func login() async {
         do {
-            print("EMAIL", email)
-            let loginResponse: BasicApiResponse<LoginResponse> = try await requestManager.perform(LoginRequest.login(email: email, password: password))
+            let loginResponse: BasicDataResponse<LoginResponse> = try await requestManager.perform(LoginRequest.login(email: email, password: password))
             print(loginResponse)
 //            let animals = animalsContainer.animals
 //            self.animals = animals

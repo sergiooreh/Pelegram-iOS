@@ -7,7 +7,8 @@
 
 import Foundation
 
-struct BasicApiResponse: Decodable {
+struct BasicDataResponse<T: Decodable>: Decodable {
     var successful: Bool
     var message: String
+    var data: T
 }
