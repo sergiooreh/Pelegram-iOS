@@ -9,17 +9,27 @@ import SwiftUI
 
 struct MyTextField: View {
     var title: String
-    @Binding  var text: String
+    @Binding var text: String
+    var isPassword: Bool = false
     
     var body: some View {
-        TextField(
-            title,
-            text: $text
-        )
-        .autocapitalization(.none)
-        .padding(.all)
-        .border(Color(UIColor.separator))
-        .padding(.all)
+        if isPassword {
+            SecureField(title, text: $text)
+                .modifier(TextFieldModifier())
+        } else {
+            TextField(title, text: $text)
+                .modifier(TextFieldModifier())
+        }
+    }
+}
+
+struct TextFieldModifier: ViewModifier {
+    func body(content: Content) -> some View {
+        content
+            .autocapitalization(.none)
+            .padding(.all)
+            .border(Color(UIColor.separator))
+            .padding(.all)
     }
 }
 

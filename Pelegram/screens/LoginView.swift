@@ -23,7 +23,7 @@ struct LoginView: View {
                 VStack(spacing: 20) {
                     Text("Pelegram")
                     MyTextField(title: "Email", text: $email)
-                    MyTextField(title: "Password", text: $password)
+                    MyTextField(title: "Password", text: $password, isPassword: true)
                     Button("Log in") {
                         if(email.isEmpty || password.isEmpty) {
                             showingAlert = true
@@ -58,6 +58,7 @@ struct LoginView: View {
         do {
             let loginResponse: BasicDataResponse<LoginResponse> = try await requestManager.perform(LoginRequest.login(email: email, password: password))
             print(loginResponse)
+            UserDefaults.standard.set(loginResponse.data.token, forKey: Constants.USER_TOKEN)
 //            let animals = animalsContainer.animals
 //            self.animals = animals
 //            await stopLoading()

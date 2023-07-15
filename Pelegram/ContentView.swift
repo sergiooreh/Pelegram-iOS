@@ -8,13 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject private var viewModel: MyViewModel
+    
     var body: some View {
-        LoginView()
+        switch(viewModel.screenIndex) {
+        case 0:  LoginView()
+        case 1: FeedView()
+        default: LoginView()
+        }
     }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
+    
+    
 }

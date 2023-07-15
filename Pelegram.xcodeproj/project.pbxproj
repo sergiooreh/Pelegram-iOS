@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19ECC8A4A83884C0F6500D7A /* Pods_Pelegram_PelegramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAFDCB8914E73768761FC65A /* Pods_Pelegram_PelegramUITests.framework */; };
 		AC05220E2A588F310064298A /* PelegramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC05220D2A588F310064298A /* PelegramApp.swift */; };
 		AC0522102A588F310064298A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC05220F2A588F310064298A /* ContentView.swift */; };
 		AC0522122A588F320064298A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC0522112A588F320064298A /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 		AC0522202A588F320064298A /* PelegramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC05221F2A588F320064298A /* PelegramTests.swift */; };
 		AC05222A2A588F320064298A /* PelegramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0522292A588F320064298A /* PelegramUITests.swift */; };
 		AC05222C2A588F320064298A /* PelegramUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC05222B2A588F320064298A /* PelegramUITestsLaunchTests.swift */; };
+		AC0AEAFA2A5DAF98001FE95B /* AuthenticateRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0AEAF92A5DAF98001FE95B /* AuthenticateRequest.swift */; };
 		AC1E341A2A59B4FC00FB3CDC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1E34192A59B4FC00FB3CDC /* User.swift */; };
 		AC1E341C2A59B64500FB3CDC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1E341B2A59B64500FB3CDC /* Constants.swift */; };
 		AC1E34242A59BC9D00FB3CDC /* BasicDataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1E34232A59BC9D00FB3CDC /* BasicDataResponse.swift */; };
@@ -26,12 +28,16 @@
 		AC3EE73E2A5B11C50051C07F /* RequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3EE73D2A5B11C50051C07F /* RequestProtocol.swift */; };
 		AC3EE7402A5B12480051C07F /* RequestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3EE73F2A5B12480051C07F /* RequestType.swift */; };
 		AC3EE7432A5B17CE0051C07F /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3EE7422A5B17CE0051C07F /* LoginRequest.swift */; };
+		AC401DF52A61E06D000427BB /* MyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC401DF42A61E06D000427BB /* MyViewModel.swift */; };
 		AC7F42552A5C851200091EC3 /* RegisterRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7F42542A5C851200091EC3 /* RegisterRequest.swift */; };
 		AC7F42572A5C871000091EC3 /* BasicApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7F42562A5C871000091EC3 /* BasicApiResponse.swift */; };
+		AC8696742A62726A00C7C838 /* Interceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8696732A62726900C7C838 /* Interceptor.swift */; };
 		AC8C28D22A58A68900F97C07 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C28D12A58A68900F97C07 /* LoginView.swift */; };
 		AC8C28D42A58A6EF00F97C07 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C28D32A58A6EF00F97C07 /* RegistrationView.swift */; };
 		AC8C28D62A58A8DD00F97C07 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C28D52A58A8DD00F97C07 /* FeedView.swift */; };
 		AC8CBA9F2A5ADF7A005153D5 /* MyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8CBA9E2A5ADF7A005153D5 /* MyTextField.swift */; };
+		C71CB7FA21F0EA262B97AEB8 /* Pods_PelegramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66EA602C224641EFB69978F0 /* Pods_PelegramTests.framework */; };
+		E67CB489D47A9BDBF47A5F06 /* Pods_Pelegram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5F3658C4959C3CD0EC5DDFD /* Pods_Pelegram.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +58,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		37BD7C7D94A95EBCB2979BCF /* Pods-Pelegram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pelegram.release.xcconfig"; path = "Target Support Files/Pods-Pelegram/Pods-Pelegram.release.xcconfig"; sourceTree = "<group>"; };
+		66EA602C224641EFB69978F0 /* Pods_PelegramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PelegramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C0F4F1A05C1CCF9175DCC25 /* Pods-Pelegram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pelegram.debug.xcconfig"; path = "Target Support Files/Pods-Pelegram/Pods-Pelegram.debug.xcconfig"; sourceTree = "<group>"; };
+		9DA83F4941C6B02EC39BCD71 /* Pods-PelegramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PelegramTests.release.xcconfig"; path = "Target Support Files/Pods-PelegramTests/Pods-PelegramTests.release.xcconfig"; sourceTree = "<group>"; };
+		AAFDCB8914E73768761FC65A /* Pods_Pelegram_PelegramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pelegram_PelegramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC05220A2A588F310064298A /* Pelegram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pelegram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC05220D2A588F310064298A /* PelegramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PelegramApp.swift; sourceTree = "<group>"; };
 		AC05220F2A588F310064298A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -63,6 +74,7 @@
 		AC0522252A588F320064298A /* PelegramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PelegramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC0522292A588F320064298A /* PelegramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PelegramUITests.swift; sourceTree = "<group>"; };
 		AC05222B2A588F320064298A /* PelegramUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PelegramUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AC0AEAF92A5DAF98001FE95B /* AuthenticateRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticateRequest.swift; sourceTree = "<group>"; };
 		AC1E34192A59B4FC00FB3CDC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		AC1E341B2A59B64500FB3CDC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		AC1E34232A59BC9D00FB3CDC /* BasicDataResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicDataResponse.swift; sourceTree = "<group>"; };
@@ -75,12 +87,18 @@
 		AC3EE73D2A5B11C50051C07F /* RequestProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestProtocol.swift; sourceTree = "<group>"; };
 		AC3EE73F2A5B12480051C07F /* RequestType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestType.swift; sourceTree = "<group>"; };
 		AC3EE7422A5B17CE0051C07F /* LoginRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
+		AC401DF42A61E06D000427BB /* MyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewModel.swift; sourceTree = "<group>"; };
 		AC7F42542A5C851200091EC3 /* RegisterRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterRequest.swift; sourceTree = "<group>"; };
 		AC7F42562A5C871000091EC3 /* BasicApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicApiResponse.swift; sourceTree = "<group>"; };
+		AC8696732A62726900C7C838 /* Interceptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interceptor.swift; sourceTree = "<group>"; };
 		AC8C28D12A58A68900F97C07 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		AC8C28D32A58A6EF00F97C07 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		AC8C28D52A58A8DD00F97C07 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		AC8CBA9E2A5ADF7A005153D5 /* MyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextField.swift; sourceTree = "<group>"; };
+		BAAD850D11AEA531AEDBD119 /* Pods-Pelegram-PelegramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pelegram-PelegramUITests.release.xcconfig"; path = "Target Support Files/Pods-Pelegram-PelegramUITests/Pods-Pelegram-PelegramUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BDAF15C62AC5CDCBBD3DCEF5 /* Pods-PelegramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PelegramTests.debug.xcconfig"; path = "Target Support Files/Pods-PelegramTests/Pods-PelegramTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C76EBC5BDA3F5299FFBDA6D6 /* Pods-Pelegram-PelegramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pelegram-PelegramUITests.debug.xcconfig"; path = "Target Support Files/Pods-Pelegram-PelegramUITests/Pods-Pelegram-PelegramUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D5F3658C4959C3CD0EC5DDFD /* Pods_Pelegram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pelegram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E67CB489D47A9BDBF47A5F06 /* Pods_Pelegram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C71CB7FA21F0EA262B97AEB8 /* Pods_PelegramTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19ECC8A4A83884C0F6500D7A /* Pods_Pelegram_PelegramUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,6 +136,8 @@
 				AC05221E2A588F320064298A /* PelegramTests */,
 				AC0522282A588F320064298A /* PelegramUITests */,
 				AC05220B2A588F310064298A /* Products */,
+				D7A48F5AA65107DA1DD4BF6C /* Pods */,
+				BE9EDCACBF1216C91B66C7DD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,15 +154,16 @@
 		AC05220C2A588F310064298A /* Pelegram */ = {
 			isa = PBXGroup;
 			children = (
+				AC401DF32A61E05A000427BB /* viewmodels */,
 				AC8CBA9C2A5ADF22005153D5 /* screens */,
 				AC1E341D2A59B99200FB3CDC /* data */,
 				AC1E34162A59B4B800FB3CDC /* models */,
 				AC05220D2A588F310064298A /* PelegramApp.swift */,
 				AC05220F2A588F310064298A /* ContentView.swift */,
+				AC1E341B2A59B64500FB3CDC /* Constants.swift */,
 				AC0522112A588F320064298A /* Assets.xcassets */,
 				AC0522132A588F320064298A /* Pelegram.entitlements */,
 				AC0522142A588F320064298A /* Preview Content */,
-				AC1E341B2A59B64500FB3CDC /* Constants.swift */,
 			);
 			path = Pelegram;
 			sourceTree = "<group>";
@@ -188,6 +212,7 @@
 		AC1E341E2A59B99D00FB3CDC /* remote */ = {
 			isa = PBXGroup;
 			children = (
+				AC8696722A62725700C7C838 /* interceptor */,
 				AC3EE7342A5B10D60051C07F /* parser */,
 				AC3EE7312A5AF1FE0051C07F /* dto */,
 				AC1E34222A59BC8400FB3CDC /* responses */,
@@ -204,6 +229,7 @@
 			children = (
 				AC3EE7412A5B17B80051C07F /* util */,
 				AC7F42542A5C851200091EC3 /* RegisterRequest.swift */,
+				AC0AEAF92A5DAF98001FE95B /* AuthenticateRequest.swift */,
 				AC3EE7422A5B17CE0051C07F /* LoginRequest.swift */,
 			);
 			path = requests;
@@ -244,6 +270,22 @@
 			path = util;
 			sourceTree = "<group>";
 		};
+		AC401DF32A61E05A000427BB /* viewmodels */ = {
+			isa = PBXGroup;
+			children = (
+				AC401DF42A61E06D000427BB /* MyViewModel.swift */,
+			);
+			path = viewmodels;
+			sourceTree = "<group>";
+		};
+		AC8696722A62725700C7C838 /* interceptor */ = {
+			isa = PBXGroup;
+			children = (
+				AC8696732A62726900C7C838 /* Interceptor.swift */,
+			);
+			path = interceptor;
+			sourceTree = "<group>";
+		};
 		AC8CBA9C2A5ADF22005153D5 /* screens */ = {
 			isa = PBXGroup;
 			children = (
@@ -263,6 +305,29 @@
 			path = views;
 			sourceTree = "<group>";
 		};
+		BE9EDCACBF1216C91B66C7DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5F3658C4959C3CD0EC5DDFD /* Pods_Pelegram.framework */,
+				AAFDCB8914E73768761FC65A /* Pods_Pelegram_PelegramUITests.framework */,
+				66EA602C224641EFB69978F0 /* Pods_PelegramTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7A48F5AA65107DA1DD4BF6C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C0F4F1A05C1CCF9175DCC25 /* Pods-Pelegram.debug.xcconfig */,
+				37BD7C7D94A95EBCB2979BCF /* Pods-Pelegram.release.xcconfig */,
+				C76EBC5BDA3F5299FFBDA6D6 /* Pods-Pelegram-PelegramUITests.debug.xcconfig */,
+				BAAD850D11AEA531AEDBD119 /* Pods-Pelegram-PelegramUITests.release.xcconfig */,
+				BDAF15C62AC5CDCBBD3DCEF5 /* Pods-PelegramTests.debug.xcconfig */,
+				9DA83F4941C6B02EC39BCD71 /* Pods-PelegramTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -270,9 +335,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC05222F2A588F320064298A /* Build configuration list for PBXNativeTarget "Pelegram" */;
 			buildPhases = (
+				81BAA8D3DF0C52DD0967B48F /* [CP] Check Pods Manifest.lock */,
 				AC0522062A588F310064298A /* Sources */,
 				AC0522072A588F310064298A /* Frameworks */,
 				AC0522082A588F310064298A /* Resources */,
+				D0E7A6DAAAECBB38EA1D4A88 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -287,6 +354,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC0522322A588F320064298A /* Build configuration list for PBXNativeTarget "PelegramTests" */;
 			buildPhases = (
+				99DB1B64B86F2C199BA9F2DE /* [CP] Check Pods Manifest.lock */,
 				AC0522172A588F320064298A /* Sources */,
 				AC0522182A588F320064298A /* Frameworks */,
 				AC0522192A588F320064298A /* Resources */,
@@ -305,9 +373,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC0522352A588F320064298A /* Build configuration list for PBXNativeTarget "PelegramUITests" */;
 			buildPhases = (
+				809A83F493488571BA65E9AD /* [CP] Check Pods Manifest.lock */,
 				AC0522212A588F320064298A /* Sources */,
 				AC0522222A588F320064298A /* Frameworks */,
 				AC0522232A588F320064298A /* Resources */,
+				247943D62C596BB6794F2F9B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -388,6 +458,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		247943D62C596BB6794F2F9B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pelegram-PelegramUITests/Pods-Pelegram-PelegramUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pelegram-PelegramUITests/Pods-Pelegram-PelegramUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pelegram-PelegramUITests/Pods-Pelegram-PelegramUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		809A83F493488571BA65E9AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pelegram-PelegramUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81BAA8D3DF0C52DD0967B48F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pelegram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99DB1B64B86F2C199BA9F2DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PelegramTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0E7A6DAAAECBB38EA1D4A88 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pelegram/Pods-Pelegram-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pelegram/Pods-Pelegram-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pelegram/Pods-Pelegram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AC0522062A588F310064298A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -400,10 +573,13 @@
 				AC3EE7302A5AF1890051C07F /* LoginResponse.swift in Sources */,
 				AC8C28D62A58A8DD00F97C07 /* FeedView.swift in Sources */,
 				AC8C28D22A58A68900F97C07 /* LoginView.swift in Sources */,
+				AC8696742A62726A00C7C838 /* Interceptor.swift in Sources */,
 				AC7F42552A5C851200091EC3 /* RegisterRequest.swift in Sources */,
 				AC3EE7432A5B17CE0051C07F /* LoginRequest.swift in Sources */,
 				AC7F42572A5C871000091EC3 /* BasicApiResponse.swift in Sources */,
+				AC401DF52A61E06D000427BB /* MyViewModel.swift in Sources */,
 				AC3EE73E2A5B11C50051C07F /* RequestProtocol.swift in Sources */,
+				AC0AEAFA2A5DAF98001FE95B /* AuthenticateRequest.swift in Sources */,
 				AC1E34242A59BC9D00FB3CDC /* BasicDataResponse.swift in Sources */,
 				AC0522102A588F310064298A /* ContentView.swift in Sources */,
 				AC05220E2A588F310064298A /* PelegramApp.swift in Sources */,
@@ -560,6 +736,7 @@
 		};
 		AC0522302A588F320064298A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C0F4F1A05C1CCF9175DCC25 /* Pods-Pelegram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -598,6 +775,7 @@
 		};
 		AC0522312A588F320064298A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37BD7C7D94A95EBCB2979BCF /* Pods-Pelegram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -636,6 +814,7 @@
 		};
 		AC0522332A588F320064298A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDAF15C62AC5CDCBBD3DCEF5 /* Pods-PelegramTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -659,6 +838,7 @@
 		};
 		AC0522342A588F320064298A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DA83F4941C6B02EC39BCD71 /* Pods-PelegramTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -682,6 +862,7 @@
 		};
 		AC0522362A588F320064298A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C76EBC5BDA3F5299FFBDA6D6 /* Pods-Pelegram-PelegramUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -704,6 +885,7 @@
 		};
 		AC0522372A588F320064298A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAAD850D11AEA531AEDBD119 /* Pods-Pelegram-PelegramUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

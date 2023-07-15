@@ -9,9 +9,15 @@ import SwiftUI
 
 @main
 struct PelegramApp: App {
+    @StateObject private var viewModel = MyViewModel()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(viewModel)
+                .task {
+                    await viewModel.authenticate()
+                }
         }
     }
 }

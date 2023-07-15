@@ -20,8 +20,8 @@ struct RegistrationView: View {
         VStack(spacing: 20) {
             Text("Pelegram")
             MyTextField(title: "Email", text: $email)
-            MyTextField(title: "Password", text: $password)
-            MyTextField(title: "Repeat Password", text: $repeatPassword)
+            MyTextField(title: "Password", text: $password, isPassword: true)
+            MyTextField(title: "Repeat Password", text: $repeatPassword, isPassword: true)
             
             Button("Sign Up", action: {
                 if(email.isEmpty || password.isEmpty || repeatPassword.isEmpty) {
