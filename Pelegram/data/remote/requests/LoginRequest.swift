@@ -12,6 +12,10 @@ enum LoginRequest: RequestProtocol {
         "/login"
     }
     
+    var addAuthorizationToken: Bool {
+        false
+    }
+    
     var params: [String: Any] {
         switch self {
         case let .login(email, password):

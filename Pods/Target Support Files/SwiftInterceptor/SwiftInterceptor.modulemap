@@ -1,0 +1,6 @@
+framework module SwiftInterceptor {
+  umbrella header "SwiftInterceptor-umbrella.h"
+
+  export *
+  module * { export * }
+}

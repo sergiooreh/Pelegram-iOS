@@ -33,9 +33,6 @@ struct LoginView: View {
                             }
                         }
                     }
-                    .sheet(isPresented: $isFeedViewPresented) {
-                        FeedView()
-                    }
                     .alert("Please fill all text fields", isPresented:$showingAlert) {
                         Button("OK", role: .cancel) { }
                     }
@@ -49,6 +46,10 @@ struct LoginView: View {
                 } label: {
                     Text("Don't have an account? Sign up")
                 }
+                
+                
+                NavigationLink("", destination: FeedView(), isActive: $isFeedViewPresented)
+                                    .hidden()
             }
         }
         
@@ -59,9 +60,7 @@ struct LoginView: View {
             let loginResponse: BasicDataResponse<LoginResponse> = try await requestManager.perform(LoginRequest.login(email: email, password: password))
             print(loginResponse)
             UserDefaults.standard.set(loginResponse.data.token, forKey: Constants.USER_TOKEN)
-//            let animals = animalsContainer.animals
-//            self.animals = animals
-//            await stopLoading()
+            isFeedViewPresented = true
         } catch {
         }
     }

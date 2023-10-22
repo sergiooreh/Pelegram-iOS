@@ -8,23 +8,23 @@
 import Foundation
 
 class MyViewModel: ObservableObject {
-    @Published var screenIndex: Int = 0
+    @Published var screenIndex: Int = 2
     private let requestManager = RequestManager()
     
     func authenticate() async {
         do {
-            let loginResponse: BasicDataResponse<LoginResponse> = try await requestManager.perform(AuthenticateRequest.authenticate)
+            let authResponse: BasicDataResponse<AuthUserDto> = try await requestManager.perform(AuthenticateRequest.authenticate)
             
-            print(loginResponse)
-            let userToken: String? = loginResponse.data.token
+            print(authResponse)
             
-            if(userToken != nil) {
-                UserDefaults.standard.set(loginResponse.data.token, forKey: Constants.USER_TOKEN)
+            if(!authResponse.data.id.isEmpty) {
                 screenIndex = 1
             } else {
                 screenIndex = 0
             }
         } catch {
+            print(error)
+            screenIndex = 0
         }
     }
     

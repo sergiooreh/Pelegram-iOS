@@ -12,6 +12,10 @@ enum RegisterRequest: RequestProtocol {
         "/register"
     }
     
+    var addAuthorizationToken: Bool {
+        false
+    }
+    
     var params: [String: Any] {
         switch self {
         case let .register(email, password):

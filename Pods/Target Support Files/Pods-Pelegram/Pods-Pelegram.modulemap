@@ -1,0 +1,6 @@
+framework module Pods_Pelegram {
+  umbrella header "Pods-Pelegram-umbrella.h"
+
+  export *
+  module * { export * }
+}

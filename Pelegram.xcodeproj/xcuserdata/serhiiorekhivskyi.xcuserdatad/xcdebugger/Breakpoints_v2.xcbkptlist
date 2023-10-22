@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C909EC26-5CB9-464B-AFDF-E01821FD51AF"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "78DC8E1D-08FA-47C3-AEC8-1997EBA51E4B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pelegram/data/remote/Network.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "login(email:password:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1CB2A224-2E0D-431F-98BB-8A8B670ADC1F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pelegram/data/remote/Network.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "login(email:password:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "657789D8-69FE-40BE-B384-FE78B9F15753"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pelegram/data/remote/requests/RequestProtocol.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "createURLRequest()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E46AC320-3B67-497F-803D-20C82E5CAD8F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pelegram/data/remote/requests/RequestProtocol.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "createURLRequest()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E46AC320-3B67-497F-803D-20C82E5CAD8F - 75c52e1912499438"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pelegram.RequestProtocol.createURLRequest() throws -&gt; Foundation.URLRequest"
+                  moduleName = "Pelegram"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/serhiiorekhivskyi/Documents/Programming/Xcode/Pelegram/Pelegram/data/remote/requests/RequestProtocol.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "2788">
+               </Location>
+               <Location
+                  uuid = "E46AC320-3B67-497F-803D-20C82E5CAD8F - 75c52e1912499419"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pelegram.RequestProtocol.createURLRequest() throws -&gt; Foundation.URLRequest"
+                  moduleName = "Pelegram"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/serhiiorekhivskyi/Documents/Programming/Xcode/Pelegram/Pelegram/data/remote/requests/RequestProtocol.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "2908">
+               </Location>
+               <Location
+                  uuid = "E46AC320-3B67-497F-803D-20C82E5CAD8F - 75c52e19124994e6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pelegram.RequestProtocol.createURLRequest() throws -&gt; Foundation.URLRequest"
+                  moduleName = "Pelegram"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/serhiiorekhivskyi/Documents/Programming/Xcode/Pelegram/Pelegram/data/remote/requests/RequestProtocol.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "3200">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B6E7C603-E14E-42AB-9A2D-ADC96FEC4F46"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pelegram/data/remote/requests/enums/LoginEnumRequest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "params"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "B6E7C603-E14E-42AB-9A2D-ADC96FEC4F46 - 5b5c59d969c2aea0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pelegram.LoginEnumRequest.params.getter : Swift.Dictionary&lt;Swift.String, Swift.String&gt;"
+                  moduleName = "Pelegram"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/serhiiorekhivskyi/Documents/Programming/Xcode/Pelegram/Pelegram/data/remote/requests/enums/LoginEnumRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "260">
+               </Location>
+               <Location
+                  uuid = "B6E7C603-E14E-42AB-9A2D-ADC96FEC4F46 - 82a8eace7e8a06dd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pelegram.LoginEnumRequest.params.getter : Swift.Dictionary&lt;Swift.String, Any&gt;"
+                  moduleName = "Pelegram"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/serhiiorekhivskyi/Documents/Programming/Xcode/Pelegram/Pelegram/data/remote/requests/enums/LoginEnumRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "280">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DAC6533B-BA7A-4636-9E24-9EA9D71FA056"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pelegram/data/remote/requests/enums/LoginEnumRequest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "params"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "DAC6533B-BA7A-4636-9E24-9EA9D71FA056 - 5b5c59d969c2ae83"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pelegram.LoginEnumRequest.params.getter : Swift.Dictionary&lt;Swift.String, Swift.String&gt;"
+                  moduleName = "Pelegram"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/serhiiorekhivskyi/Documents/Programming/Xcode/Pelegram/Pelegram/data/remote/requests/enums/LoginEnumRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "292">
+               </Location>
+               <Location
+                  uuid = "DAC6533B-BA7A-4636-9E24-9EA9D71FA056 - 82a8eace7e8a06fe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pelegram.LoginEnumRequest.params.getter : Swift.Dictionary&lt;Swift.String, Any&gt;"
+                  moduleName = "Pelegram"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/serhiiorekhivskyi/Documents/Programming/Xcode/Pelegram/Pelegram/data/remote/requests/enums/LoginEnumRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "312">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "152ED36E-A5BF-45D0-A6E8-85662352A1EE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pelegram/data/remote/requests/enums/LoginEnumRequest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "params"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "152ED36E-A5BF-45D0-A6E8-85662352A1EE - 5b5c59d969c2afb9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pelegram.LoginEnumRequest.params.getter : Swift.Dictionary&lt;Swift.String, Swift.String&gt;"
+                  moduleName = "Pelegram"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/serhiiorekhivskyi/Documents/Programming/Xcode/Pelegram/Pelegram/data/remote/requests/enums/LoginEnumRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "572">
+               </Location>
+               <Location
+                  uuid = "152ED36E-A5BF-45D0-A6E8-85662352A1EE - 5b5c59d969c2afb9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pelegram.LoginEnumRequest.params.getter : Swift.Dictionary&lt;Swift.String, Swift.String&gt;"
+                  moduleName = "Pelegram"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/serhiiorekhivskyi/Documents/Programming/Xcode/Pelegram/Pelegram/data/remote/requests/enums/LoginEnumRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "588">
+               </Location>
+               <Location
+                  uuid = "152ED36E-A5BF-45D0-A6E8-85662352A1EE - 82a8eace7e8a07c4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pelegram.LoginEnumRequest.params.getter : Swift.Dictionary&lt;Swift.String, Any&gt;"
+                  moduleName = "Pelegram"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/serhiiorekhivskyi/Documents/Programming/Xcode/Pelegram/Pelegram/data/remote/requests/enums/LoginEnumRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "608">
+               </Location>
+               <Location
+                  uuid = "152ED36E-A5BF-45D0-A6E8-85662352A1EE - 82a8eace7e8a07c4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pelegram.LoginEnumRequest.params.getter : Swift.Dictionary&lt;Swift.String, Any&gt;"
+                  moduleName = "Pelegram"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/serhiiorekhivskyi/Documents/Programming/Xcode/Pelegram/Pelegram/data/remote/requests/enums/LoginEnumRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "624">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

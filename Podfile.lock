@@ -1,0 +1,16 @@
+PODS:
+  - SwiftInterceptor (2.0)
+
+DEPENDENCIES:
+  - SwiftInterceptor
+
+SPEC REPOS:
+  trunk:
+    - SwiftInterceptor
+
+SPEC CHECKSUMS:
+  SwiftInterceptor: 97b21b430710376429ab225c1580b1ba8a56ac91
+
+PODFILE CHECKSUM: f0511244b6dd7d7b013d0530848db1a985d49115
+
+COCOAPODS: 1.12.1

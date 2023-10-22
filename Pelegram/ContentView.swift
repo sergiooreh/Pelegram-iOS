@@ -12,9 +12,10 @@ struct ContentView: View {
     
     var body: some View {
         switch(viewModel.screenIndex) {
-        case 0:  LoginView()
+        case 0: LoginView()
         case 1: FeedView()
-        default: LoginView()
+        case 2: SplashScreenView()
+        default: SplashScreenView()
         }
     }
     

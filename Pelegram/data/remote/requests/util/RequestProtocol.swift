@@ -52,9 +52,10 @@ extension RequestProtocol {
             urlRequest.allHTTPHeaderFields = headers
         }
         
-        //    if addAuthorizationToken {
-        //      urlRequest.setValue(authToken, forHTTPHeaderField: "Authorization")
-        //    }
+        if addAuthorizationToken {
+            let userToken = UserDefaults.standard.string(forKey: Constants.USER_TOKEN)
+            urlRequest.setValue("Bearer \(userToken ?? "")", forHTTPHeaderField: "Authorization")
+        }
         
         urlRequest.setValue("application/json", forHTTPHeaderField: "Content-Type")
         
