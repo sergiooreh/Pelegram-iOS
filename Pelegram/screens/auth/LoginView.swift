@@ -48,7 +48,7 @@ struct LoginView: View {
                 }
                 
                 
-                NavigationLink("", destination: FeedView(), isActive: $isFeedViewPresented)
+                NavigationLink("", destination: MainScreen(), isActive: $isFeedViewPresented)
                                     .hidden()
             }
         }
@@ -59,8 +59,10 @@ struct LoginView: View {
         do {
             let loginResponse: BasicDataResponse<LoginResponse> = try await requestManager.perform(LoginRequest.login(email: email, password: password))
             print(loginResponse)
-            UserDefaults.standard.set(loginResponse.data.token, forKey: Constants.USER_TOKEN)
-            isFeedViewPresented = true
+            if(loginResponse.successful) {
+                UserDefaults.standard.set(loginResponse.data.token, forKey: Constants.USER_TOKEN)
+                isFeedViewPresented = true
+            }
         } catch {
         }
     }

@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct RegistrationView: View {
+    @Environment(\.presentationMode) var presentationMode
+    
     @State private var email: String = ""
     @State private var password: String = ""
     @State private var repeatPassword: String = ""
@@ -47,9 +49,9 @@ struct RegistrationView: View {
         do {
             let registerResponse: BasicApiResponse = try await requestManager.perform(RegisterRequest.register(email: email, password: password))
             print(registerResponse)
-//            let animals = animalsContainer.animals
-//            self.animals = animals
-//            await stopLoading()
+            if(registerResponse.successful) {
+                presentationMode.wrappedValue.dismiss()         //doesn't work(go back)
+            }
         } catch {
         }
     }
