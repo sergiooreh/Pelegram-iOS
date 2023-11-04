@@ -13,57 +13,67 @@ struct LoginView: View {
     
     @State private var isFeedViewPresented = false
     @State private var showingAlert = false
+    @State private var isLoading = false
     
     private let requestManager = RequestManager()
     
     var body: some View {
         NavigationView {
-            VStack {
-                Spacer()
-                VStack(spacing: 20) {
-                    Text("Pelegram")
-                    MyTextField(title: "Email", text: $email)
-                    MyTextField(title: "Password", text: $password, isPassword: true)
-                    Button("Log in") {
-                        if(email.isEmpty || password.isEmpty) {
-                            showingAlert = true
-                        } else {
-                            Task {
-                                await login()
+            ZStack {
+                if isLoading {
+                    ProgressView()
+                }
+                VStack {
+                    Spacer()
+                    VStack(spacing: 20) {
+                        Text("Pelegram")
+                        MyTextField(title: "Email", text: $email)
+                        MyTextField(title: "Password", text: $password, isPassword: true)
+                        Button("Log in") {
+                            if(email.isEmpty || password.isEmpty) {
+                                showingAlert = true
+                            } else {
+                                Task {
+                                    await login()
+                                }
                             }
                         }
+                        .alert("Please fill all text fields", isPresented:$showingAlert) {
+                            Button("OK", role: .cancel) { }
+                        }
                     }
-                    .alert("Please fill all text fields", isPresented:$showingAlert) {
-                        Button("OK", role: .cancel) { }
+                    .padding()
+                    
+                    Spacer()
+                    
+                    NavigationLink{
+                        RegistrationView()
+                    } label: {
+                        Text("Don't have an account? Sign up")
                     }
+                    
+                    
+                    NavigationLink("", destination: MainScreen(), isActive: $isFeedViewPresented)
+                                        .hidden()
                 }
-                .padding()
-                
-                Spacer()
-                
-                NavigationLink{
-                    RegistrationView()
-                } label: {
-                    Text("Don't have an account? Sign up")
-                }
-                
-                
-                NavigationLink("", destination: MainScreen(), isActive: $isFeedViewPresented)
-                                    .hidden()
             }
+            .background(isLoading ? Color.gray.opacity(0.4) : Color.clear)
         }
         
     }
     
     func login() async {
         do {
+            isLoading = true
             let loginResponse: BasicDataResponse<LoginResponse> = try await requestManager.perform(LoginRequest.login(email: email, password: password))
             print(loginResponse)
             if(loginResponse.successful) {
                 UserDefaults.standard.set(loginResponse.data.token, forKey: Constants.USER_TOKEN)
                 isFeedViewPresented = true
             }
+            isLoading = false
         } catch {
+            isLoading = false
         }
     }
 }
