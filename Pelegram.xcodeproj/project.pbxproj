@@ -29,14 +29,16 @@
 		AC3EE73E2A5B11C50051C07F /* RequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3EE73D2A5B11C50051C07F /* RequestProtocol.swift */; };
 		AC3EE7402A5B12480051C07F /* RequestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3EE73F2A5B12480051C07F /* RequestType.swift */; };
 		AC3EE7432A5B17CE0051C07F /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3EE7422A5B17CE0051C07F /* LoginRequest.swift */; };
-		AC401DF52A61E06D000427BB /* MyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC401DF42A61E06D000427BB /* MyViewModel.swift */; };
+		AC401DF52A61E06D000427BB /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC401DF42A61E06D000427BB /* SplashViewModel.swift */; };
 		AC549C792AEC3DE00015D6ED /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC549C782AEC3DE00015D6ED /* PostView.swift */; };
+		AC798B0E2AF6191A00C80C50 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC798B0D2AF6191A00C80C50 /* AuthViewModel.swift */; };
 		AC7F42552A5C851200091EC3 /* RegisterRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7F42542A5C851200091EC3 /* RegisterRequest.swift */; };
 		AC7F42572A5C871000091EC3 /* BasicApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7F42562A5C871000091EC3 /* BasicApiResponse.swift */; };
 		AC8C28D22A58A68900F97C07 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C28D12A58A68900F97C07 /* LoginView.swift */; };
 		AC8C28D42A58A6EF00F97C07 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C28D32A58A6EF00F97C07 /* RegistrationView.swift */; };
 		AC8C28D62A58A8DD00F97C07 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C28D52A58A8DD00F97C07 /* FeedView.swift */; };
 		AC8CBA9F2A5ADF7A005153D5 /* MyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8CBA9E2A5ADF7A005153D5 /* MyTextField.swift */; };
+		ACAD45022AF76D890077C677 /* ScreenEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAD45012AF76D890077C677 /* ScreenEnum.swift */; };
 		ACB3F5542A62C41400B2E3C9 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB3F5532A62C41400B2E3C9 /* SplashScreenView.swift */; };
 		ACBB3B862AE858CF00BBEEBF /* StoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBB3B852AE858CF00BBEEBF /* StoryRow.swift */; };
 		C71CB7FA21F0EA262B97AEB8 /* Pods_PelegramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66EA602C224641EFB69978F0 /* Pods_PelegramTests.framework */; };
@@ -91,14 +93,16 @@
 		AC3EE73D2A5B11C50051C07F /* RequestProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestProtocol.swift; sourceTree = "<group>"; };
 		AC3EE73F2A5B12480051C07F /* RequestType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestType.swift; sourceTree = "<group>"; };
 		AC3EE7422A5B17CE0051C07F /* LoginRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
-		AC401DF42A61E06D000427BB /* MyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewModel.swift; sourceTree = "<group>"; };
+		AC401DF42A61E06D000427BB /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
 		AC549C782AEC3DE00015D6ED /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		AC798B0D2AF6191A00C80C50 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		AC7F42542A5C851200091EC3 /* RegisterRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterRequest.swift; sourceTree = "<group>"; };
 		AC7F42562A5C871000091EC3 /* BasicApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicApiResponse.swift; sourceTree = "<group>"; };
 		AC8C28D12A58A68900F97C07 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		AC8C28D32A58A6EF00F97C07 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		AC8C28D52A58A8DD00F97C07 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		AC8CBA9E2A5ADF7A005153D5 /* MyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextField.swift; sourceTree = "<group>"; };
+		ACAD45012AF76D890077C677 /* ScreenEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScreenEnum.swift; path = ../../../../../.Trash/ScreenEnum.swift; sourceTree = "<group>"; };
 		ACB3F5532A62C41400B2E3C9 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		ACBB3B852AE858CF00BBEEBF /* StoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryRow.swift; sourceTree = "<group>"; };
 		BAAD850D11AEA531AEDBD119 /* Pods-Pelegram-PelegramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pelegram-PelegramUITests.release.xcconfig"; path = "Target Support Files/Pods-Pelegram-PelegramUITests/Pods-Pelegram-PelegramUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -167,6 +171,7 @@
 				AC05220D2A588F310064298A /* PelegramApp.swift */,
 				AC05220F2A588F310064298A /* ContentView.swift */,
 				AC1E341B2A59B64500FB3CDC /* Constants.swift */,
+				ACAD45012AF76D890077C677 /* ScreenEnum.swift */,
 				AC0522112A588F320064298A /* Assets.xcassets */,
 				AC0522132A588F320064298A /* Pelegram.entitlements */,
 				AC0522142A588F320064298A /* Preview Content */,
@@ -278,7 +283,8 @@
 		AC401DF32A61E05A000427BB /* viewmodels */ = {
 			isa = PBXGroup;
 			children = (
-				AC401DF42A61E06D000427BB /* MyViewModel.swift */,
+				AC798B0D2AF6191A00C80C50 /* AuthViewModel.swift */,
+				AC401DF42A61E06D000427BB /* SplashViewModel.swift */,
 			);
 			path = viewmodels;
 			sourceTree = "<group>";
@@ -593,11 +599,13 @@
 				ACB3F5542A62C41400B2E3C9 /* SplashScreenView.swift in Sources */,
 				AC549C792AEC3DE00015D6ED /* PostView.swift in Sources */,
 				AC7F42552A5C851200091EC3 /* RegisterRequest.swift in Sources */,
+				AC798B0E2AF6191A00C80C50 /* AuthViewModel.swift in Sources */,
 				AC3EE7432A5B17CE0051C07F /* LoginRequest.swift in Sources */,
 				ACBB3B862AE858CF00BBEEBF /* StoryRow.swift in Sources */,
 				AC7F42572A5C871000091EC3 /* BasicApiResponse.swift in Sources */,
-				AC401DF52A61E06D000427BB /* MyViewModel.swift in Sources */,
+				AC401DF52A61E06D000427BB /* SplashViewModel.swift in Sources */,
 				AC3EE73E2A5B11C50051C07F /* RequestProtocol.swift in Sources */,
+				ACAD45022AF76D890077C677 /* ScreenEnum.swift in Sources */,
 				AC0AEAFA2A5DAF98001FE95B /* AuthenticateRequest.swift in Sources */,
 				AC1E34242A59BC9D00FB3CDC /* BasicDataResponse.swift in Sources */,
 				AC0522102A588F310064298A /* ContentView.swift in Sources */,

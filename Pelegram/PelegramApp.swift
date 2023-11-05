@@ -9,7 +9,7 @@ import SwiftUI
 
 @main
 struct PelegramApp: App {
-    @StateObject private var viewModel = MyViewModel()
+    @StateObject private var viewModel = SplashViewModel()
     
     var body: some Scene {
         WindowGroup {

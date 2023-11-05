@@ -8,16 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
-    @EnvironmentObject private var viewModel: MyViewModel
+    @EnvironmentObject private var viewModel: SplashViewModel
     
     var body: some View {
         switch(viewModel.screenIndex) {
-        case 0: LoginView()
-        case 1: MainScreen()
-        case 2: SplashScreenView()
+        case ScreenEnum.LOGIN: LoginView(authViewModel: AuthViewModel())
+        case ScreenEnum.MAIN: MainScreen()
+        case ScreenEnum.SPLASH: SplashScreenView()
         default: SplashScreenView()
         }
     }
-    
     
 }
