@@ -8,12 +8,14 @@
 import SwiftUI
 
 struct PostView: View {
+    var feed: FeedDto
+    
     var body: some View {
         VStack {
             HStack {
                 Image(systemName: "person.circle")
-                        .foregroundColor(.black)
-                Text("Title?")
+                    .foregroundColor(.black)
+                Text(feed.title)
                 Spacer()
                 Button(action: {
                     
@@ -22,8 +24,23 @@ struct PostView: View {
                         .foregroundColor(.black)
                 }
             }
-            Image("logo")
-                .scaledToFit()
+            AsyncImage(url: URL(string: feed.imageUrl ?? "")) { phase in
+                switch phase {
+                case .success(let image):
+                    // This is displayed when the image is successfully loaded.
+                    image
+                        .resizable()
+                        .scaledToFit()
+                case .empty, .failure(_):
+                    // This is displayed if the image fails to load.
+                    Image("logo")
+                        .resizable()
+                        .scaledToFit()
+                @unknown default:
+                    // Handle any future cases here
+                    EmptyView()
+                }
+            }.scaledToFit()
             HStack {
                 Button(action: {
                     
@@ -53,7 +70,7 @@ struct PostView: View {
             }
             Text("0 likes")
                 .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: .leading)
-            Text("aaa@aaa.aaa: hi")
+            Text("\(feed.creator): \(feed.description ?? "")")
                 .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: .leading)
         }
         .frame(maxHeight: .infinity, alignment: .top)
@@ -61,6 +78,6 @@ struct PostView: View {
     }
 }
 
-#Preview {
-    PostView()
-}
+//#Preview {
+//    PostView()
+//}

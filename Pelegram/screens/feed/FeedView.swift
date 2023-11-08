@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct FeedView: View {
+    @ObservedObject var feedViewModel: FeedViewModel = FeedViewModel()
     let users = ["user1", "user1", "user1", "user1", "user1", "user1", "user1", "user1", "user1", "user1", "user1", "user1"]
     
     var body: some View {
@@ -40,11 +41,14 @@ struct FeedView: View {
             .padding(.vertical, 20)
             ScrollView() {
                 VStack() {
-                    ForEach(users, id: \.self) { item in
-                        PostView()
+                    ForEach(feedViewModel.feedList, id: \.self) { item in
+                        PostView(feed: item)
                     }
                 }
             }
+        }
+        .task {
+            await feedViewModel.getFeeds()
         }
         .frame(maxHeight: .infinity, alignment: .top)
     }

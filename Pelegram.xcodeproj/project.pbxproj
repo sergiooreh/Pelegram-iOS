@@ -38,9 +38,12 @@
 		AC8C28D42A58A6EF00F97C07 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C28D32A58A6EF00F97C07 /* RegistrationView.swift */; };
 		AC8C28D62A58A8DD00F97C07 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C28D52A58A8DD00F97C07 /* FeedView.swift */; };
 		AC8CBA9F2A5ADF7A005153D5 /* MyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8CBA9E2A5ADF7A005153D5 /* MyTextField.swift */; };
-		ACAD45022AF76D890077C677 /* ScreenEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAD45012AF76D890077C677 /* ScreenEnum.swift */; };
 		ACB3F5542A62C41400B2E3C9 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB3F5532A62C41400B2E3C9 /* SplashScreenView.swift */; };
 		ACBB3B862AE858CF00BBEEBF /* StoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBB3B852AE858CF00BBEEBF /* StoryRow.swift */; };
+		ACD088682AFC048A003EE32F /* GetFeedsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD088672AFC048A003EE32F /* GetFeedsRequest.swift */; };
+		ACD0886C2AFC06A2003EE32F /* FeedDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD0886B2AFC06A2003EE32F /* FeedDto.swift */; };
+		ACEEA3152AFADE9600116F74 /* ScreenEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEEA3142AFADE9600116F74 /* ScreenEnum.swift */; };
+		ACEEA3172AFAE1A500116F74 /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEEA3162AFAE1A500116F74 /* FeedViewModel.swift */; };
 		C71CB7FA21F0EA262B97AEB8 /* Pods_PelegramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66EA602C224641EFB69978F0 /* Pods_PelegramTests.framework */; };
 		E67CB489D47A9BDBF47A5F06 /* Pods_Pelegram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5F3658C4959C3CD0EC5DDFD /* Pods_Pelegram.framework */; };
 /* End PBXBuildFile section */
@@ -102,9 +105,12 @@
 		AC8C28D32A58A6EF00F97C07 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		AC8C28D52A58A8DD00F97C07 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		AC8CBA9E2A5ADF7A005153D5 /* MyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextField.swift; sourceTree = "<group>"; };
-		ACAD45012AF76D890077C677 /* ScreenEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScreenEnum.swift; path = ../../../../../.Trash/ScreenEnum.swift; sourceTree = "<group>"; };
 		ACB3F5532A62C41400B2E3C9 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		ACBB3B852AE858CF00BBEEBF /* StoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryRow.swift; sourceTree = "<group>"; };
+		ACD088672AFC048A003EE32F /* GetFeedsRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetFeedsRequest.swift; sourceTree = "<group>"; };
+		ACD0886B2AFC06A2003EE32F /* FeedDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedDto.swift; sourceTree = "<group>"; };
+		ACEEA3142AFADE9600116F74 /* ScreenEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenEnum.swift; sourceTree = "<group>"; };
+		ACEEA3162AFAE1A500116F74 /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
 		BAAD850D11AEA531AEDBD119 /* Pods-Pelegram-PelegramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pelegram-PelegramUITests.release.xcconfig"; path = "Target Support Files/Pods-Pelegram-PelegramUITests/Pods-Pelegram-PelegramUITests.release.xcconfig"; sourceTree = "<group>"; };
 		BDAF15C62AC5CDCBBD3DCEF5 /* Pods-PelegramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PelegramTests.debug.xcconfig"; path = "Target Support Files/Pods-PelegramTests/Pods-PelegramTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C76EBC5BDA3F5299FFBDA6D6 /* Pods-Pelegram-PelegramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pelegram-PelegramUITests.debug.xcconfig"; path = "Target Support Files/Pods-Pelegram-PelegramUITests/Pods-Pelegram-PelegramUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -171,7 +177,7 @@
 				AC05220D2A588F310064298A /* PelegramApp.swift */,
 				AC05220F2A588F310064298A /* ContentView.swift */,
 				AC1E341B2A59B64500FB3CDC /* Constants.swift */,
-				ACAD45012AF76D890077C677 /* ScreenEnum.swift */,
+				ACEEA3142AFADE9600116F74 /* ScreenEnum.swift */,
 				AC0522112A588F320064298A /* Assets.xcassets */,
 				AC0522132A588F320064298A /* Pelegram.entitlements */,
 				AC0522142A588F320064298A /* Preview Content */,
@@ -239,8 +245,9 @@
 			children = (
 				AC3EE7412A5B17B80051C07F /* util */,
 				AC7F42542A5C851200091EC3 /* RegisterRequest.swift */,
-				AC0AEAF92A5DAF98001FE95B /* AuthenticateRequest.swift */,
 				AC3EE7422A5B17CE0051C07F /* LoginRequest.swift */,
+				ACD088672AFC048A003EE32F /* GetFeedsRequest.swift */,
+				AC0AEAF92A5DAF98001FE95B /* AuthenticateRequest.swift */,
 			);
 			path = requests;
 			sourceTree = "<group>";
@@ -258,6 +265,7 @@
 		AC3EE7312A5AF1FE0051C07F /* dto */ = {
 			isa = PBXGroup;
 			children = (
+				ACD0886B2AFC06A2003EE32F /* FeedDto.swift */,
 				AC3EE7322A5AF20C0051C07F /* AuthUserDto.swift */,
 			);
 			path = dto;
@@ -285,6 +293,7 @@
 			children = (
 				AC798B0D2AF6191A00C80C50 /* AuthViewModel.swift */,
 				AC401DF42A61E06D000427BB /* SplashViewModel.swift */,
+				ACEEA3162AFAE1A500116F74 /* FeedViewModel.swift */,
 			);
 			path = viewmodels;
 			sourceTree = "<group>";
@@ -593,6 +602,7 @@
 				AC3EE73A2A5B11730051C07F /* APIManager.swift in Sources */,
 				AC3EE7382A5B11300051C07F /* RequestManager.swift in Sources */,
 				AC8CBA9F2A5ADF7A005153D5 /* MyTextField.swift in Sources */,
+				ACD0886C2AFC06A2003EE32F /* FeedDto.swift in Sources */,
 				AC3EE7302A5AF1890051C07F /* LoginResponse.swift in Sources */,
 				AC8C28D62A58A8DD00F97C07 /* FeedView.swift in Sources */,
 				AC8C28D22A58A68900F97C07 /* LoginView.swift in Sources */,
@@ -605,7 +615,9 @@
 				AC7F42572A5C871000091EC3 /* BasicApiResponse.swift in Sources */,
 				AC401DF52A61E06D000427BB /* SplashViewModel.swift in Sources */,
 				AC3EE73E2A5B11C50051C07F /* RequestProtocol.swift in Sources */,
-				ACAD45022AF76D890077C677 /* ScreenEnum.swift in Sources */,
+				ACEEA3172AFAE1A500116F74 /* FeedViewModel.swift in Sources */,
+				ACD088682AFC048A003EE32F /* GetFeedsRequest.swift in Sources */,
+				ACEEA3152AFADE9600116F74 /* ScreenEnum.swift in Sources */,
 				AC0AEAFA2A5DAF98001FE95B /* AuthenticateRequest.swift in Sources */,
 				AC1E34242A59BC9D00FB3CDC /* BasicDataResponse.swift in Sources */,
 				AC0522102A588F310064298A /* ContentView.swift in Sources */,

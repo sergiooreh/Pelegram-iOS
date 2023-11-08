@@ -1,5 +1,5 @@
 //
-//  LoginResponse.swift
+//  BasicApiResponse.swift
 //  Pelegram
 //
 //  Created by Serhii Orekhivskyi on 08.07.2023.

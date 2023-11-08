@@ -10,6 +10,7 @@ import Foundation
 
 //Identifiable means that each item has a unique ID.
 //Decodable means that it can be decoded - for example, we can transform a JSON object into this data model.
+//Codable - typealias of Decodable and Encodable    -- maybe use it?
 struct User: Identifiable, Decodable {
     var id: String
 }
