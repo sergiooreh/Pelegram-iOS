@@ -12,6 +12,7 @@ class FeedViewModel: ObservableObject {
     @Published var feedList: [FeedDto] = []
     @Published var isLoading = false
     @Published var error: String? = nil
+    @Published var isScreenLogin = false
     private let requestManager = RequestManager()
     
     
@@ -35,5 +36,10 @@ class FeedViewModel: ObservableObject {
                 isLoading = false
             }
         }
+    }
+    
+    func logout() {
+        UserDefaults.standard.removeObject(forKey: Constants.USER_TOKEN)
+        isScreenLogin = true
     }
 }

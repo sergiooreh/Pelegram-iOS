@@ -25,7 +25,7 @@ struct FeedView: View {
                     Image(systemName: "message")
                 }
                 Button(action: {
-                    
+                    feedViewModel.logout()  //TODO make navigation
                 }) {
                     Image(systemName: "rectangle.portrait.and.arrow.right")
                 }
